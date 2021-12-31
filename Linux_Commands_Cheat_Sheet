@@ -1,4 +1,4 @@
 | Command | Arguments | Description |
-| :---         |     :---:      |          ---: |
-| cd   |      | Change directory    |
-| pwd    |        | Print working directory      |
+| :---    |     :---: |        ---: |
+| cd      |           | Change directory    |
+| pwd     |           | Print working directory      |
