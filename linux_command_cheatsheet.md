@@ -10,3 +10,4 @@
 | cat    |         | Shows the contents of a file or merges files |
 | less    |         | Displays the contents of a file page by page (With additional functions like the search)  |
 | more    |         | Displays the contents of a file page by page |
+| stat    |         | Display file or file system status |
