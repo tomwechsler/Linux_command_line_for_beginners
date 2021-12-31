@@ -14,3 +14,4 @@
 | hostnamectl    |         | Can be used to query and change the system's computer name and associated settings |
 | date    |         | Displays the date and time |
 | cal    |         | Displays the calendar |
+| lsusb    |         | Displays the USB devices |
