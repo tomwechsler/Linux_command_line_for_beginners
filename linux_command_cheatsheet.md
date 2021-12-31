@@ -11,3 +11,6 @@
 | less    |         | Displays the contents of a file page by page (With additional functions like the search)  |
 | more    |         | Displays the contents of a file page by page |
 | stat    |         | Display file or file system status |
+| hostnamectl    |         | Can be used to query and change the system's computer name and associated settings |
+| date    |         | Displays the date and time |
+| cal    |         | Displays the calendar |
