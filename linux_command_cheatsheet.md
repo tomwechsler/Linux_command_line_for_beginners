@@ -16,3 +16,5 @@
 | cal    |         | Displays the calendar |
 | lsusb    |         | Displays the USB devices |
 | lscpu    |         | Displays information about the CPU architecture |
+| lspci    |         | Detailed information about the PCI devices and buses in the system |
+| lsblk    |         | Lists information about all available or the specified block devices |
