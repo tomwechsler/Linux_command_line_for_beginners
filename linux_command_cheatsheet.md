@@ -24,4 +24,9 @@
 | uptime    |    -p    |  -p stands for "pretty" |
 | uname    |        |  Displays the OS |
 | uname    |    -a    |  -a for all info |
-| touch    |        |  Update the access and modification times of each file to the current time. If the file does not exist, one will be created. |
+| touch    |        |  Update the access and modification times of each file to the current time. If the file does not exist, one will be created |
+| rm    |        |  Remove files or directories |
+| rm    |   -i *     |  * means delete all files, with -i prompt before every removal |
+| rm    |    -f    |  -f is for force, execute the command either way |
+| rm    |    -r    |  Remove directories and their contents recursively |
+| rm    |    -v    |  -v is for verbose, explain what is being done |
