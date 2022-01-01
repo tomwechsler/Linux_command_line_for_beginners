@@ -19,3 +19,4 @@
 | lspci    |         | Detailed information about the PCI devices and buses in the system |
 | lsblk    |         | Lists information about all available or the specified block devices |
 | df    |         |  Report file system disk space usage |
+| df    |   -hT      |  Disk space allocation with (-h) "human readable" numbers and (-T) file system |
