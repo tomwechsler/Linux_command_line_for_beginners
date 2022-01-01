@@ -22,3 +22,6 @@
 | df    |   -hT      |  Disk space allocation with (-h) "human readable" numbers and (-T) file system |
 | uptime    |        |  Incl. CPU utilization 1min, 5min and 15min |
 | uptime    |    -p    |  -p stands for "pretty" |
+| uname    |        |  Displays the OS |
+| uname    |    -a    |  -a for all info |
+| touch    |        |  Update the access and modification times of each file to the current time. If the file does not exist, one will be created. |
