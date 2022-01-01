@@ -30,3 +30,4 @@
 | rm    |    -f    |  -f is for force, execute the command either way |
 | rm    |    -r    |  Remove directories and their contents recursively |
 | rm    |    -v    |  -v is for verbose, explain what is being done |
+| mkdir |          | Create the Directory(ies), if they do not already exist |
