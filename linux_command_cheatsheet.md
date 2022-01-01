@@ -15,3 +15,4 @@
 | date    |         | Displays the date and time |
 | cal    |         | Displays the calendar |
 | lsusb    |         | Displays the USB devices |
+| lscpu    |         | Displays information about the CPU architecture |
