@@ -27,8 +27,10 @@
 | touch    |        |  Update the access and modification times of each file to the current time. If the file does not exist, one will be created |
 | rm    |        |  Remove files or directories |
 | rm    |   -i *     |  * means delete all files, with -i prompt before every removal |
-| rm    |    -f    |  -f is for force, execute the command either way |
+| rm    |    -f    | -f is for force, execute the command either way |
 | rm    |    -r    |  Remove directories and their contents recursively |
-| rm    |    -v    |  -v is for verbose, explain what is being done |
+| rm    |    -v    | -v is for verbose, explain what is being done |
 | mkdir |          | Create the Directory(ies), if they do not already exist |
 | rmdir |          | Remove empty (must be empty) directories => if not use rm -rf |
+| cp    |          | Copy files and directories |
+| cp    |    -R    | -v copy directories recursively |
