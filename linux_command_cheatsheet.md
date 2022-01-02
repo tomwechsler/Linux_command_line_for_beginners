@@ -38,3 +38,4 @@
 | ln    |          | Create symbolic and hard links |
 | ln    |     -s   | Make symbolic links instead of hard links |
 | echo  |          | Display a line of text |
+| paste  |          | Merge lines of files |
