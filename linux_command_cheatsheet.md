@@ -33,4 +33,7 @@
 | mkdir |          | Create the Directory(ies), if they do not already exist |
 | rmdir |          | Remove empty (must be empty) directories => if not use rm -rf |
 | cp    |          | Copy files and directories |
-| cp    |    -R    | -v copy directories recursively |
+| cp    |    -R    | -r copy directories recursively |
+| mv    |          | Move (or rename) files |
+
+
