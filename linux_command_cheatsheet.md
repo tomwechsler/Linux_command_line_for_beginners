@@ -35,5 +35,5 @@
 | cp    |          | Copy files and directories |
 | cp    |    -R    | -r copy directories recursively |
 | mv    |          | Move (or rename) files |
-
-
+| ln    |          | Create symbolic and hard links |
+| ln    |     -s   | Make symbolic links instead of hard links |
