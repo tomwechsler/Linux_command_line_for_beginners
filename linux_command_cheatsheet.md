@@ -39,3 +39,4 @@
 | ln    |     -s   | Make symbolic links instead of hard links |
 | echo  |          | Display a line of text |
 | paste  |          | Merge lines of files |
+| join  |          | Join lines of two files on a common field |
