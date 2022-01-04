@@ -42,3 +42,4 @@
 | join  |          | Join lines of two files on a common field |
 | expand  |          | Convert tabs to spaces |
 | unexpand  |          | Convert spaces to tabs |
+| sed  |          | Stream editor for filtering and transforming text (Syntax example: sed 's/this/through-this/g' file.txt) |
