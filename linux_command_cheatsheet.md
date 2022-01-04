@@ -45,4 +45,4 @@
 | sed  |          | Stream editor for filtering and transforming text (Syntax example: sed 's/this/through-this/g' file.txt) |
 |      |          | s stands for substitute, g stands for global=all |
 |  wc   |          | Print newline, word, and byte counts for each file |
-|  wc   |    -l      | -l (Print the newline counts - is an l stands for lines) |
+|  wc   |    -l      | -l Print the newline counts (-l is an l stands for lines) |
