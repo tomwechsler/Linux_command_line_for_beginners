@@ -46,3 +46,6 @@
 |      |          | s stands for substitute, g stands for global=all |
 |  wc   |          | Print newline, word, and byte counts for each file |
 |  wc   |    -l      | -l Print the newline counts (-l is an l stands for lines) |
+|  chmod   |          | Change file mode bits |
+|  chmod   |    ugo+x <filename>      | Set the execute bit for user, group and other for a file  |
+|  chmod   |    755 <filename>      | rwx the user, r-x for the group and r-x for others on a file  |
