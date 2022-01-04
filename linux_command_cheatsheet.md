@@ -44,3 +44,5 @@
 | unexpand  |          | Convert spaces to tabs |
 | sed  |          | Stream editor for filtering and transforming text (Syntax example: sed 's/this/through-this/g' file.txt) |
 |      |          | s stands for substitute, g stands for global=all |
+|  wc   |          | Print newline, word, and byte counts for each file |
+|  wc   |    -l      | Print the newline counts |
