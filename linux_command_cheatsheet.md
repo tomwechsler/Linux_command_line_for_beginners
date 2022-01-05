@@ -50,4 +50,5 @@
 |  chmod   |    ugo+x␣filename       | Set the execute bit for user, group and other for a file  |
 |  chmod   |    755␣filename      | rwx the user, r-x for the group and r-x for others on a file  |
 |  chgrp   |          | Change group ownership |
-
+|  useradd   |          | create a new user or update default new user information |
+|  useradd   |   -ms       | -m Create the user's home directory if it does not exist. -s The name of the user's login shell. |
