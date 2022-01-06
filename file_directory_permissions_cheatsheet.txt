@@ -28,7 +28,7 @@ d|rwx|r-x|r-x| 2 tom tom 4096 Jan 2 09:23 Images
 
 r stands for read
 w stands for write
-x is for execute (for a file this, would be for example an executable script - to execute a script needs r-x)
+x is for execute (for a file, this would be for example an executable script - to execute a script needs r-x)
 x stands for execute (for a directory, this means that you can change into the directory - because open/execute folder)
 
 12-9 results in 3, which means there are 3 bits left. These 3 bits are used for special permissions, namely for SUID, SGID and Sticky Bit. 
