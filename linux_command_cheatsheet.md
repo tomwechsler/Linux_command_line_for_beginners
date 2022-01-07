@@ -53,3 +53,5 @@
 |  useradd   |          | Create a new user or update default new user information (mostly used with RedHat based distros) |
 |  useradd   |   -ms (for example)       | -m Create the user's home directory if it does not exist. -s The name of the user's login shell. |
 |  adduser   |          | Create a new user or update default new user information (mostly used with Debian based distros) |
+|  usermod   |          | Modify a user account |
+|  usermod   |     -aG     | -a  Add/Append the user to the supplementary group(s). -G A list of supplementary groups which the user is also a member of.|
