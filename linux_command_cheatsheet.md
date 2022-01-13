@@ -58,3 +58,4 @@
 |  userdel   |          | Delete a user account and related files |
 |  userdel   |     -f    | -f This option forces the removal of the user account, even if the user is still logged in. It also forces userdel to remove the user's home directory and mail spool, even if another user uses the same home directory or if the mail spool is not owned by the specified user |
 |  groupadd   |          | Create a new group |
+|  groupmod   |          | Modify a group definition on the system |
