@@ -60,3 +60,4 @@
 |  groupadd   |          | Create a new group |
 |  groupmod   |          | Modify a group definition on the system |
 |  groupdel   |          | Delete a group |
+|  grep   |          | Search a file for a pattern |
