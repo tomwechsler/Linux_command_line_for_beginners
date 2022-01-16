@@ -62,4 +62,5 @@
 |  groupdel   |          | Delete a group |
 |  grep   |          | Search a file for a pattern |
 |  grep   |    -i␣pattern␣file      | -i Perform pattern matching in searches without regard to case 
-|  tail   |          | Displays the last 10 lines of a file |
+|  tail   |          | Print the last 10 lines of each File to standard output |
+|  head   |          | Print the first 10 lines of each File to standard output |
