@@ -65,3 +65,5 @@
 |  tail   |          | Print the last 10 lines of each File to standard output |
 |  head   |          | Print the first 10 lines of each File to standard output |
 |  cut   |          | Print selected parts of lines from each File to standard output |
+|  sort   |          | Write sorted concatenation of all Files(s) to standard output |
+
