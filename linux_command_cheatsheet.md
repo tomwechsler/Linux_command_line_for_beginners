@@ -64,3 +64,4 @@
 |  grep   |    -i␣pattern␣file      | -i Perform pattern matching in searches without regard to case 
 |  tail   |          | Print the last 10 lines of each File to standard output |
 |  head   |          | Print the first 10 lines of each File to standard output |
+|  cut   |          | Print selected parts of lines from each File to standard output |
