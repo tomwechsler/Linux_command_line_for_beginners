@@ -66,4 +66,5 @@
 |  head   |          | Print the first 10 lines of each File to standard output |
 |  cut   |          | Print selected parts of lines from each File to standard output |
 |  sort   |          | Write sorted concatenation of all Files(s) to standard output |
-
+|  du   |          | Summarize disk usage of the set of files, recursively for directories |
+|  du   |    -sch      | -s display only a total for each argument, -c produce a grand total, -h print sizes in human readable format (e.g., 1K 234M 2G) |
