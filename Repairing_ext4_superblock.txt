@@ -10,7 +10,7 @@ sudo dump2fs /dev/sde2 | grep uperblock (I write "uperblock" because I don't kno
 
 sudo fsck /dev/sdb2 (We could try to repair the partition directly => BUT, we are looking for the superblocks)
 
-sudo mkfs.ext4 -n /dev/sdb2 (ATTENTION: be sure to use -n!!!!) => now we see the superblocks
+sudo mkfs.ext4 -n /dev/sdb2 (ATTENTION: be sure to use -n!!!! without -n you create a new file system!!) => now we see the superblocks
 
 sudo fsck -b 40961 /dev/sdb2 (after -b insert a superblock from above)
 
