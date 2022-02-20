@@ -1,0 +1,10 @@
+If you want to do this on a test partition, use the following command (note: substitute the path to your test partition).
+
+sudo dd if=/dev/urandom of=/dev/sdb2 bs=1k seek=10 count=4k
+
+Now we list all block devices (it needs elevated rights for this):
+
+sudo lsblk
+
+dump2fs /dev/sde2 | grep uperblock (I write "uperblock" because I don't know if it's upper or lower case ;-)
+
