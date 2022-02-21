@@ -13,7 +13,8 @@ File Attributes
 
     [user@centos:attributes/] $ echo "Some text" > test1 (repeating for test2 and test3)
 
-3. Using the appropriate octal or ascii permission notation, change permissions to be read, write, execute for the owner and read, execute for everyone else. Be sure to apply those permissions to all three files.
+3. Using the appropriate octal or ascii permission notation, change permissions to be read, write, execute for the owner and read, execute for everyone else. 
+Be sure to apply those permissions to all three files.
 
     [user@centos:attributes/] $ chmod 755 test*
 
