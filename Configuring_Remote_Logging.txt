@@ -1,0 +1,35 @@
+Configuring Remote Logging on a RedHat based system
+---------------------------------------------------
+
+Jounald and rsyslog work together by "house". We can check this in the following config file:
+
+sudo vim /etc/system/journald.conf
+
+#ForwardToSyslog=yes
+
+#=> Now we configure remote logging
+
+SRV01:
+------
+
+vim /etc/rsyslog.conf
+
+=> remove hashtag
+$ModLoad imtcp
+$InputTCPServerRun 514
+
+systemctl restart rsyslogd
+
+firewall-cmd --add-port=514/tcp
+firewall-cmd --add-port=514/tcp --permanent
+
+
+SRV02:
+
+vim /etc/rsyslog.conf
+
+#*.* @@srv01.prime.pri:514 (two @@ means TCP one @ means UDP)
+
+systemctl restart rsyslogd
+
+Translated with www.DeepL.com/Translator (free version)
