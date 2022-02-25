@@ -12,24 +12,22 @@ sudo vim /etc/system/journald.conf
 SRV01:
 ------
 
-vim /etc/rsyslog.conf
+sudo vim /etc/rsyslog.conf
 
 => remove hashtag
 $ModLoad imtcp
 $InputTCPServerRun 514
 
-systemctl restart rsyslogd
+sudo systemctl restart rsyslogd
 
-firewall-cmd --add-port=514/tcp
-firewall-cmd --add-port=514/tcp --permanent
+sudo firewall-cmd --add-port=514/tcp
+sudo firewall-cmd --add-port=514/tcp --permanent
 
 
-SRV02:
+SRV02 (this server sends the logs to SRV01):
 
-vim /etc/rsyslog.conf
+sudo vim /etc/rsyslog.conf
 
-#*.* @@srv01.prime.pri:514 (two @@ means TCP one @ means UDP)
+*.* @@srv01.prime.pri:514 (two @@ means TCP one @ means UDP)
 
-systemctl restart rsyslogd
-
-Translated with www.DeepL.com/Translator (free version)
+sudo systemctl restart rsyslogd
