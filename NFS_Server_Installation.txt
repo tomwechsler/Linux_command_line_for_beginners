@@ -33,7 +33,7 @@ ls -ldZ /data /files
 
 sudo restorecon -Rv /data
 
-sudo restorecon -Rv /data
+sudo restorecon -Rv /files
 
 sudo systemctl enable nfs-server
 sudo systemctl start nfs-server
