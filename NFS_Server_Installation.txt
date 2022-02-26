@@ -1,0 +1,48 @@
+Network File System (NFS) Server Installation
+---------------------------------------------
+
+sudo yum install nfs-utils
+
+sudo systemctl status nfs-server
+
+sudo vim /etc/exports
+/data *(ro)
+/files *(rw,no_root_squash)
+
+sudo mkdir /data
+sudo mkdir /files
+
+cd /data
+
+touch file1
+touch file2
+
+cd /files
+
+touch file23
+touch file24
+
+cd
+
+ls -ldZ /data /files
+
+sudo semanage fcontext -a -t public_content_rw_t "/data(/.*)?"
+sudo semanage fcontext -a -t public_content_rw_t "/files(/.*)?"
+
+ls -ldZ /data /files
+
+sudo restorecon -Rv /data
+
+sudo restorecon -Rv /data
+
+sudo systemctl enable nfs-server
+sudo systemctl start nfs-server
+sudo systemctl status nfs-server
+
+sudo firewall-cmd --list-all
+sudo firewall-cmd --get-services
+sudo find / -name *.xml | grep nfs
+sudo firewall-cmd --permanent --add-service=nfs
+sudo firewall-cmd --reload
+
+showmount -e localhost
