@@ -2,12 +2,12 @@
 
 **How do I get into the editor mode now?**
 
- (i) for ’insert’, this immediately switches vim to insert mode
- (I) moves the cursor to the beginning of the line and enters insert mode
- (a) moves the cursor to the beginning of the line and enters insert mode
- (A) moves the cursor to the end of the line and enters insert mode
- (o) inserts a new line below the current line and enters insert mode on the new line
- (O) inserts a new line above the current one and enters insert mode on the new line
+ (i) for ’insert’, this immediately switches vim to insert mode  
+ (I) moves the cursor to the beginning of the line and enters insert mode  
+ (a) moves the cursor to the beginning of the line and enters insert mode  
+ (A) moves the cursor to the end of the line and enters insert mode  
+ (o) inserts a new line below the current line and enters insert mode on the new line  
+ (O) inserts a new line above the current one and enters insert mode on the new line  
 
 **Exit and save:**
 
