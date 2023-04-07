@@ -1,4 +1,6 @@
-How do I get into the editor mode now?
+# The vim cheatsheet
+
+**How do I get into the editor mode now?**
 
  (i) for ’insert’, this immediately switches vim to insert mode
  (I) moves the cursor to the beginning of the line and enters insert mode
@@ -7,7 +9,7 @@ How do I get into the editor mode now?
  (o) inserts a new line below the current line and enters insert mode on the new line
  (O) inserts a new line above the current one and enters insert mode on the new line
 
-Exit and save:
+**Exit and save:**
 
  :w filename saves the file under filename. If the file already exists the specification of the file name is optional.
  :w! saves the file even if it is read-only, if possible.
@@ -17,7 +19,7 @@ Exit and save:
  :q terminates the editor. Edited files must have been saved before.
  :q! terminates the vi even if files have not yet been saved. The changes to these files are lost.
 
-Navigation in a document:
+**Navigation in a document:**
 
 The most important move commands are:
 
