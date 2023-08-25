@@ -1,4 +1,4 @@
-#Let's assume that there is /dev/sdb2 a file system error
+#Let's assume that there is a file system error at /dev/sdb2
 
 lsblk
 
