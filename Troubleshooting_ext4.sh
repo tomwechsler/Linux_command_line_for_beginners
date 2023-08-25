@@ -1,3 +1,5 @@
+#Let's assume that there is /dev/sdb2 a file system error
+
 lsblk
 
 dump2fs /dev/sde2 | grep uperblock #(everything is ok with /dev/sde2 - I write "uperblock" because I don't know if it's upper or lower case)
